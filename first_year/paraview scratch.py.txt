@@ -1,0 +1,14 @@
+from paraview.simple import *
+from math import *
+
+def start_cue(self):
+    self.camera = GetActiveView().GetActiveCamera()
+    self.start = 0
+    pass
+
+def tick(self):
+    self.camera.Dolly(1 + sin(self.start * pi / 6) / 2)
+    self.start = self.start + 1
+    pass
+
+def end_cue(self): pass

@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home1/03176/csnyder/.Envs/wormvision2/lib/python2.7/site-packages/spyderlib/spyder.py", line 2367, in main
+    mainwindow = run_spyder(app, options, args)
+  File "/home1/03176/csnyder/.Envs/wormvision2/lib/python2.7/site-packages/spyderlib/spyder.py", line 2255, in run_spyder
+    main.setup()
+  File "/home1/03176/csnyder/.Envs/wormvision2/lib/python2.7/site-packages/spyderlib/spyder.py", line 801, in setup
+    from spyderlib.plugins.inspector import ObjectInspector
+  File "/home1/03176/csnyder/.Envs/wormvision2/lib/python2.7/site-packages/spyderlib/plugins/inspector.py", line 47, in <module>
+    from spyderlib.utils.inspector.sphinxify import (CSS_PATH, sphinxify,
+  File "/home1/03176/csnyder/.Envs/wormvision2/lib/python2.7/site-packages/spyderlib/utils/inspector/sphinxify.py", line 31, in <module>
+    from sphinx.application import Sphinx
+  File "/opt/apps/intel13/python/2.7.9/lib/python2.7/site-packages/sphinx/application.py", line 31, in <module>
+    from sphinx.roles import XRefRole
+  File "/opt/apps/intel13/python/2.7.9/lib/python2.7/site-packages/sphinx/roles.py", line 243
+    text = text.replace('-->', u'\N{TRIANGULAR BULLET}')
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 0-20: unknown Unicode character name

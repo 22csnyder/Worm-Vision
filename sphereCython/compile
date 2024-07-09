@@ -1,0 +1,1 @@
+icpc -Wall -I/opt/apps/intel13/gsl/1.16/x86_64/include harm.cpp -L/opt/apps/intel13/gsl/1.15/lib -lgsl -lgslcblas -lm -fopenmp

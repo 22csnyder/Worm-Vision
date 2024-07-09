@@ -1,0 +1,14 @@
+job execution at: Tue Sep 22 09:35:05 CDT 2015
+running on node c444-802
+using default VNC server /usr/bin/vncserver
+memory limit set to 31174557 kilobytes
+set wayness to 
+got VNC display :1
+local (compute node) VNC port is 5901
+got login node VNC port 14482
+Created reverse ports on Stampede logins
+Your VNC server is now running!
+To connect via VNC client:  SSH tunnel port 14482 to stampede.tacc.utexas.edu:14482
+                            Then connect to localhost::14482
+/tmp/slurmd/job5793093/slurm_script: line 144: /usr/bin/wall: Permission denied
+slurmstepd: *** JOB 5793093 CANCELLED AT 2015-09-22T17:35:15 DUE TO TIME LIMIT on c444-802 ***

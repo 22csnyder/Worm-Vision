@@ -1,0 +1,6 @@
+__pychache__/
+*.py[cod]
+*.so
+*.pkl
+saveresultstest/
+.DS_Store

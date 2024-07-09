@@ -1,0 +1,12 @@
+job execution at: Mon Jun 22 00:21:26 CDT 2015
+running on node c444-804
+using default VNC server /usr/bin/vncserver
+memory limit set to 31174557 kilobytes
+set wayness to 
+got VNC display :1
+local (compute node) VNC port is 5901
+got login node VNC port 14484
+Created reverse ports on Stampede logins
+Your VNC server is now running!
+To connect via VNC client:  SSH tunnel port 14484 to stampede.tacc.utexas.edu:14484
+                            Then connect to localhost::14484
